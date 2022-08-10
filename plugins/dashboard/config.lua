@@ -16,8 +16,8 @@ db.custom_header = {
   "       ███             ▄              ▐█▌",
   "      ▐██▌          ▄███ ▄▄▄▄█        ██",
   "      ███          ▄█████████▌        ██",
-  "     ▐██▌         ▄█▓▓███████▌       ▐██",
-  "     ███         ▐██████▓▓███▌       ▐██",
+  "     ▐██▌         ▄█🟥███████▌       ▐██",
+  "     ███         ▐██████🟥███▌       ▐██",
   "     ▀███        ▓▀▄▄▄▄▄▀▀████▄      ▓██",
   "      ▀████▄    ▐█ ███████▄▓███      ███",
   "        █████▄  ██▄▀████▀▀░█████    ▄███",
@@ -44,25 +44,25 @@ db.custom_header = {
 --
 db.custom_center = {
   {
-    icon = "  ",
-    desc = "Latest Session                          ",
-    shortcut = "SPC S l",
-    action = "SessionLoad",
-  },
-  {
-    icon = "  ",
-    desc = "Search for Files                        ",
-    action = "Telescope find_files",
-    shortcut = "SPC f f",
-  },
-  {
-    icon = " ",
+    icon = "⌛  ",
     desc = "Recently Opened files                   ",
     action = "Telescope oldfiles",
     shortcut = "SPC f h",
   },
   {
-    icon = "⇅  ",
+    icon = "📦  ",
+    desc = "Projects Menu                           ",
+    shortcut = "SPC S l",
+    action = "Telescope project",
+  },
+  {
+    icon = "🔎  ",
+    desc = "Search for Files                        ",
+    action = "Telescope find_files",
+    shortcut = "SPC f f",
+  },
+  {
+    icon = "⏬  ",
     desc = "Update all plugins                      ",
     action = "PackerUpdate",
     shortcut = "SPC p u",
@@ -70,5 +70,5 @@ db.custom_center = {
 }
 --
 db.custom_footer = {
-  "--- Jacob Collins ---",
+  "--- Zato-1 & Eddie ---",
 }

@@ -5,6 +5,9 @@ return {
   ["lukas-reineke/indent-blankline.nvim"] = { disable = true },
   ["max397574/better-escape.nvim"] = { disable = true },
   ["numToStr/Comment.nvim"] = { disable = true },
+  -- My addition- --
+  ["glepnir/dashboard-nvim"] = require "user.plugins.dashboard",
+  -- My additions end --
   ["EdenEast/nightfox.nvim"] = require "user.plugins.nightfox",
   ["danymat/neogen"] = require "user.plugins.neogen",
   ["dhruvasagar/vim-table-mode"] = require "user.plugins.vim-table-mode",

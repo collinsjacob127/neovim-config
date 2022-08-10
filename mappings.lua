@@ -57,6 +57,7 @@ return {
     ["jk"] = false,
     ["<c-q>"] = { "<c-\\><c-n>", desc = "Terminal normal mode" },
     ["<esc><esc>"] = { "<c-\\><c-n>:q<cr>", desc = "Terminal quit" },
+    ["<c-\\>"] = { "<c-\\><c-n>:q<cr>", desc = "Terminal quit" },
   },
   x = {
     -- better increment/decrement

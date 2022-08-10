@@ -8,7 +8,6 @@ db.preview_file_height = 12
 db.preview_file_width = 80
 --
 db.custom_header = {
-  "",
   "    █                                        ▄  ▄▌",
   "    ██ ▐▄                                  ▓▄▓███▌",
   "     ▀███▌                               ▄██████▀",
@@ -32,7 +31,6 @@ db.custom_header = {
   " ███████████████████████████████████▄",
   "▀███████████████████████████████████▀",
   "    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀",
-  "",
   "",
   " ███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗",
   " ████╗  ██║ ██╔════╝██╔═══██╗ ██║   ██║ ██║ ████╗ ████║",
@@ -58,15 +56,19 @@ db.custom_center = {
     shortcut = "SPC f f",
   },
   {
-    icon = "  ",
+    icon = " ",
     desc = "Recently Opened files                   ",
     action = "Telescope oldfiles",
     shortcut = "SPC f h",
   },
   {
-    icon = "  ",
-    desc = "File Browser                            ",
-    action = "Telescope file_browser",
-    shortcut = "SPC f b",
+    icon = "⇅  ",
+    desc = "Update all plugins                      ",
+    action = "PackerUpdate",
+    shortcut = "SPC p u",
   },
+}
+--
+db.custom_footer = {
+  "--- Jacob Collins ---",
 }

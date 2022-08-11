@@ -44,16 +44,16 @@ db.custom_header = {
 --
 db.custom_center = {
   {
-    icon = "⌛  ",
-    desc = "Recently Opened files                   ",
-    action = "Telescope oldfiles",
-    shortcut = "SPC f h",
-  },
-  {
     icon = "📦  ",
     desc = "Projects Menu                           ",
     shortcut = "SPC S l",
     action = "Telescope project",
+  },
+  {
+    icon = "⌛  ",
+    desc = "Recently Opened files                   ",
+    action = "Telescope oldfiles",
+    shortcut = "SPC f h",
   },
   {
     icon = "🔎  ",

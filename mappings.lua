@@ -42,7 +42,6 @@ return {
     ["<c-left>"] = { "<cmd>STSSwapUpNormal<cr>", desc = "Swap previous tree-sitter object" },
   },
   i = {
-    -- type template string
     ["<S-Tab>"] = { "<C-V><Tab>", desc = "Tab character" },
   },
   v = {

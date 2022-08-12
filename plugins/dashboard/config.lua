@@ -39,7 +39,6 @@ db.custom_header = {
   " ██║ ╚████║ ███████╗╚██████╔╝  ╚████╔╝  ██║ ██║ ╚═╝ ██║",
   " ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝",
   "",
-  "",
 }
 --
 db.custom_center = {
@@ -60,6 +59,12 @@ db.custom_center = {
     desc = "Search for Files                        ",
     action = "Telescope find_files",
     shortcut = "SPC f f",
+  },
+  {
+    icon = "🧐  ",
+    desc = "Search File Contents                    ",
+    action = "Telescope live_grep",
+    shortcut = "SPC f w",
   },
   {
     icon = "⏬  ",

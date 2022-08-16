@@ -42,7 +42,8 @@ return {
     ["<c-left>"] = { "<cmd>STSSwapUpNormal<cr>", desc = "Swap previous tree-sitter object" },
   },
   i = {
-    ["<S-Tab>"] = { "<C-V><Tab>", desc = "Tab character" },
+    -- Change tab to four spaces
+    ["<Tab>"] = { "    ", desc = "Tab character" },
   },
   v = {
     -- navigating wrapped lines

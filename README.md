@@ -1,7 +1,5 @@
 # AstroNvim User Configuration
 
-My personal user config for AstroVim
-
 ## Installation
 
 - Install AstroNvim

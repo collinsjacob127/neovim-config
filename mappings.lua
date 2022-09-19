@@ -43,7 +43,9 @@ return {
   },
   i = {
     -- Change tab to four spaces
-    ["<Tab>"] = { "    ", desc = "Tab character" },
+    ["<Tab>"] = { "    ", desc = "Tab in spaces" },
+    ["<c-Tab>"] = { "    ", desc = "Tab in spaces" },
+    ["<c-s-Tab>"] = { "<Tab>", desc = "Tab as tab" },
   },
   v = {
     -- navigating wrapped lines
@@ -82,6 +84,5 @@ return {
   },
   [""] = {
     ["<c-e><c-e>"] = { "<Plug>SendLine", desc = "Send line to REPL" },
-    ["<c-e>"] = { "<Plug>Send", desc = "Send to REPL" },
   },
 }
